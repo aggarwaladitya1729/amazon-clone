@@ -1,0 +1,12 @@
+.home_logo {
+    width: 100%;
+    height: 500px;
+    z-index: -1; /*so that this image will be on back side*/
+    margin-bottom: -150px;
+    object-fit: cover;
+}
+
+.home_row {
+    display: flex;
+    justify-content: space-around;
+}

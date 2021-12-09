@@ -1,0 +1,19 @@
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    border: 1px solid rgba(82, 74, 74, 0.144);
+    background-color: rgb(214, 213, 207);
+    height: 190px;
+    width: 45vw;
+}
+
+.subtotal > button {
+    background-color: rgba(245, 217, 59, 0.774);
+    border-radius: 5px;
+}
+
+.subtotal > button:hover {
+    background-color: gold;
+}
